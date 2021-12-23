@@ -1,0 +1,109 @@
+h1.sec{
+    color:orangered;
+    text-align: center;
+    font-family: fantasy;
+}
+body{
+    font-family:fantasy;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  formation                                 */
+/* -------------------------------------------------------------------------- */
+/* --------------------------------- image-1 --------------------------------- */
+div.grid-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+img.image1{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top:10px;
+}
+div.text1{
+    position: relative;
+    right: 350px;
+    bottom: 20px;
+}
+/* --------------------------------- image-2 --------------------------------- */
+div.grid-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+img.image2{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 80px;
+    top:10px;
+}
+div.text2{
+    position: relative;
+    right: 420px;
+    top :2px;
+    bottom: 20px;
+}
+/* --------------------------------- image-3 -------------------------------- */
+div.grid-3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+div.text3{
+    position: relative;
+    right: 450px;
+    top :2px;
+    bottom: 20px;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  section-4                                 */
+/* -------------------------------------------------------------------------- */
+div.grid-4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+progress.pro1{
+    height: 16px;
+    background-color: green;
+}
+progress.pro2{
+    width: 1400px;
+}
+/* ----------------------------- centre-interet ----------------------------- */
+div.grid-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+img.img4{
+    position: relative;
+    left: 60px;
+    height: 70px;
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 4px black;
+}
+div.text87{
+    position:relative;
+    left: 73px;
+    top:10px;
+}
+/* --------------------------------- button --------------------------------- */
+button{
+    height: 40px;
+    width: 120px;
+    background-color:darkblue;
+    color: white;
+    border-radius: 3px;
+    margin-left: 700px;
+    transition: 500ms;
+    margin-top: 10px;
+}
+button:hover{
+    box-shadow: 5px 5px 7px black;
+    color: black;
+    background-color:deepskyblue ;
+    
+}
+/* -------------------------------------------------------------------------- */
+/*  !                                 AHMED                                !  */
+/* -------------------------------------------------------------------------- */
