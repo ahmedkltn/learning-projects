@@ -1,0 +1,59 @@
+/*
+====================================================================================================================================================================
+                                                    Start Tech Support Page
+====================================================================================================================================================================
+*/
+*{
+    box-sizing: border-box;
+}
+div.computersupport{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+}
+div.text{
+    margin-left: -390px;
+}
+div.computersupport2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+}
+div.text2{
+    margin-left: -390px;
+}
+div.computersupport3{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+}
+div.text3{
+    margin-left: -390px;
+}
+.computersupport,.computersupport2,.computersupport3{
+    z-index: -1;
+    padding-bottom: 20px;
+}
+h1 ,p {
+    font-size: 130%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color:  #172035;
+    font-size: 150%;
+    color: white;
+    border: solid 2px #172035;
+    transition: 300ms;
+}
+button:hover{
+    box-shadow: 4px 4px 7px 4px black;
+    background-color:skyblue;
+    color:black;
+    border-radius: 3px;
+}
+/*
+====================================================================================================================================================================
+                                                    End Tech Support Page
+====================================================================================================================================================================
+*/

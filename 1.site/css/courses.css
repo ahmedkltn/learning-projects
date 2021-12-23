@@ -1,0 +1,53 @@
+/*
+====================================================================================================================================================================
+                                                    Start Courses Page
+====================================================================================================================================================================
+*/
+#courses{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+h2 ,h6 {
+    font-size: 130%;
+}
+.course .course2 , .course3{
+    margin-left: 6px;
+}
+.imgs{
+    padding-left: 50px;
+}
+.buttons{
+    width: 200px;
+    height: 60px;
+    background-color:  #172035;
+    font-size: 150%;
+    color: white;
+    border: solid 2px #172035;
+    transition: 300ms;
+}
+button{
+    width: 200px;
+    height: 60px;
+    background-color:  #172035;
+    font-size: 150%;
+    color: white;
+    border: solid 2px #172035;
+    transition: 300ms;
+}
+button:hover{
+    box-shadow: 4px 4px 7px 4px black;
+    background-color:skyblue;
+    color:black;
+    border-radius: 3px;
+}
+img.imgss{
+ margin-left: 50px;
+}
+/*
+====================================================================================================================================================================
+                                                    End Courses Page
+====================================================================================================================================================================
+*/
