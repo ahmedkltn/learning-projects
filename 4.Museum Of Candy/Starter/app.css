@@ -1,0 +1,106 @@
+body{
+    background-color: #fdfcdc;
+}
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+/* --------------------------------- navbar --------------------------------- */
+div.nav-bar{
+    margin-left: 0.6%;
+}
+h5.display-6{
+    color: #f07167;
+}
+h5.display-6{
+    font-size: 1.5em;
+}
+h6.display-6{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #00afb9;
+}
+li.nav-item :hover{
+    color:#f07167;
+}
+/* ---------------------------------- First Row ---------------------------------- */
+h2.display-3{
+    text-transform: uppercase;
+    color: #0081A7;
+}
+span.hashtag{
+    color: #F07167;
+    font-size: 1.2em;
+}
+img.firstimg{
+    margin-bottom: 50px;
+}
+@media (max-width:992px){
+    div.text-1{
+        display:none;
+    }
+    img{
+        height: 50%;
+    }
+}
+/* ------------------------------- second row ------------------------------- */
+/* !text-style for all */
+h6.title-text{
+    text-transform: capitalize;
+    margin-top: 12%;
+    color: #0081A7;
+}
+h6.title-text::first-letter{
+    color: #F07167;
+}
+p.para{
+    max-width: 50%;
+    text-align: center;
+    color: #00AFB9;
+}
+/* ?for this para */
+.flex-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:992px){
+    div.flex-all-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    p.para{
+        margin-top: -7%;
+    }
+}
+/* -------------------------------- third Row ------------------------------- */
+.flex-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:992px){
+    div.flex-all-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    p.para{
+        margin-top: -7%;
+    }
+}
+/* ------------------------------- fourth Row ------------------------------- */
+.flex-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:992px){
+    div.flex-all-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    p.para{
+        margin-top: -7%;
+    }
+}
