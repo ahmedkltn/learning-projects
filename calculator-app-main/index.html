@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <main class="container-fluid">
+    <!-- head of Calculator -->
+    <div class="topper container-fluid my-4">
+      <div class="screen"><span id="screen">0</span></div>
+    </div>
+   <!-- body of Calculator -->
+    <div class="main container-fluid ">
+      <!-- making numbers -->
+      <!-- first row -->
+      <div class="row">
+        <button class="seven num cols-3">
+          <span id="seven"class="numbers">7</span>
+        </button>
+        <button class="eight num  cols-3">
+          <span id="eight"class="numbers">8</span>
+        </button>
+        <button class="nine num cols-3">
+          <span id="nine"class="numbers">9</span>
+        </button>
+        <button class="del num cols-3">
+          <span id="del"class="delete">DEL</span>
+        </button>
+      </div>
+      <!-- second row -->
+      <div class="row">
+        <button class="four num cols-3">
+          <span id="four"class="numbers">4</span>
+        </button>
+        <button class="five num cols-3">
+          <span id="five"class="numbers">5</span>
+        </button>
+        <button class="six num cols-3">
+          <span id="six"class="numbers">6</span>
+        </button>
+        <button class="plus num cols-3">
+          <span id="plus"class="plus">+</span>
+        </button>
+      </div>
+      <!-- third row -->
+         <div class="row">
+        <button class="one num cols-3">
+          <span id="one"class="numbers">1</span>
+        </button>
+        <button class="two num cols-3">
+          <span id="two"class="numbers">2</span>
+        </button>
+        <button class="three num cols-3">
+          <span id="three"class="numbers">3</span>
+        </button>
+        <button class="sub num cols-3">
+          <span id="sub"class="sub">-</span>
+        </button>
+      </div>
+      <div class="row">
+        <button class="point num cols-3">
+          <span id="point"class="point">.</span>
+        </button>
+        <button class="zero num cols-3">
+          <span id="zero"class="numbers">0</span>
+        </button>
+        <button class="subtract num cols-3">
+          <span id="subtract"class="subtract">/</span>
+        </button>
+        <button class="multi num cols-3">
+          <span id="multi"class="multi">X</span>
+        </button>
+      </div>
+    </div>
+    <!-- footer of Calculator -->
+    <div class="footer container-fluid my-1">
+      <div class="row">
+        <button class="reset foot cols-6">
+          <span id="reset"class="reset">RESET</span>
+        </button>
+      <button class="calcul foot cols-6">
+          <span id="calcul"class="calcul">=</span>
+        </button>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
