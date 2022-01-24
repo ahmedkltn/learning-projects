@@ -1,0 +1,29 @@
+/* Navbar */
+body{
+    background-color: #333333 !important;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+nav.nv{
+    background-color: #666666 !important;
+    box-shadow: -2px 10px 23px -17px rgba(0, 0, 0, 0.75);
+}
+span.nv-text{
+    color:#ffffff !important;
+}
+/* search bar */
+div.sr{
+    margin-top: 2% !important;
+    width: 400px !important;
+}
+div.card{
+    width: 18rem;
+    margin-bottom: 15px !important;
+}
+div.fo{
+    width: 400px !important;
+}
+img{
+    width: 300px;
+    height: 150px;
+}
